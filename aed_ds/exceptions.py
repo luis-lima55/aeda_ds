@@ -1,12 +1,11 @@
 class EmptyListException(Exception):
-    pass 
+    print("Empty list")
 
 class InvalidPositionException(Exception):
-    pass
+    print("Invalid position")
 
 class NoSuchElementException(Exception):
-    pass
+    print("No such element")
 
 class DuplicatedKeyException(Exception):
-    pass
-    
+    print("Duplicated key")
