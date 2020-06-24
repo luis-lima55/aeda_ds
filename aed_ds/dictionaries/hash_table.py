@@ -20,7 +20,7 @@ class HashTable(Dictionary):
         return False
 
     def get(self, k):
-        if self.num_elements == 0:
+        if self.size() == 0:
             raise NoSuchElementException()
         idx = self.hash_function(k)
         colision = self.table[idx]
