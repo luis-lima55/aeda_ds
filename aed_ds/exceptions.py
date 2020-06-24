@@ -1,37 +1,37 @@
 class EmptyListException(Exception):
-    pass
+    print("Empty list")
 
 
 class InvalidPositionException(Exception):
-    pass
+    print("Invalid position")
 
 
 class NoSuchElementException(Exception):
-    pass
+    print("No such element ")
 
 
 class EmptyStackException(Exception):
-    pass
+    print("Empty stack ")
 
 
 class FullStackException(Exception):
-    pass
+    print("Full stack")
 
 
 class EmptyQueueException(Exception):
-    pass
+    print("Empty Queue")
 
 
 class FullQueueException(Exception):
-    pass
+    print("Full Queue")
 
 
 class DuplicatedKeyException(Exception):
-    pass
+    print("Duplicated key")
 
 
 class EmptyDictionaryException(Exception):
-    pass
+    print("Empty dictionary")
 
 class EmptyTreeException(Exception):
-    pass
+    print("Empty tree")
